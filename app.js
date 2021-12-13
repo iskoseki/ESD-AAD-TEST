@@ -1,6 +1,6 @@
 import {ConfidentialClientApplication} from '@azure/msal-node';  
 
-import dotenv from 'dotenv';
+//import dotenv from 'dotenv';
 import fetch from 'node-fetch';
  
 dotenv.config();
@@ -31,7 +31,7 @@ console.dir(response);
 })  
 let json = await query.json();
 
-console.dir('Graph Response',json);
+console.dir(json);
 
 
 
