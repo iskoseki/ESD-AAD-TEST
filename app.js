@@ -10,7 +10,7 @@ const config = {
         authority: "https://login.microsoftonline.com/msretailfederation.onmicrosoft.com",
         clientCertificate: {
             thumbprint: "734F07557964BEAA1F4786513E817BB3E92BEFBB", // a 40-digit hexadecimal string
-           privateKey: "46f3e425-b99a-49b8-bbea-1ead1e7c47a7",
+            privateKey: "46f3e425-b99a-49b8-bbea-1ead1e7c47a7",
         }
     }
 };
